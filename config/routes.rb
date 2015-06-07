@@ -1,4 +1,6 @@
 News::Engine.routes.draw do
+  filter :locale
+
   mount Ckeditor::Engine => '/ckeditor'
 
   resources :articles do

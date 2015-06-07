@@ -18,16 +18,4 @@ group :development, :test do
   gem 'ruby-debug-ide'
 end
 
-gem 'jquery-rails'
-gem 'sass-rails'
-gem 'bootstrap-sass'
-
 gem 'activeadmin', github: 'activeadmin'
-gem 'kaminari'
-
-gem 'ckeditor'
-gem 'carrierwave'
-gem 'mini_magick'
-
-gem 'simple_form'
-gem 'responders'
