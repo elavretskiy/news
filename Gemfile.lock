@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/activeadmin/activeadmin.git
-  revision: dce083189c46ad64c8c9a2d34805a080af685bbe
+  revision: 0b4b22871fd332c94daec3c5138c0cf9a5b95451
   specs:
     activeadmin (1.0.0.pre1)
       arbre (~> 1.0, >= 1.0.2)
@@ -23,6 +23,7 @@ PATH
       bootstrap-sass
       carrierwave
       ckeditor
+      http_accept_language
       jquery-rails
       kaminari
       mini_magick
@@ -115,6 +116,7 @@ GEM
     has_scope (0.6.0)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
+    http_accept_language (2.0.5)
     i18n (0.7.0)
     inherited_resources (1.6.0)
       actionpack (>= 3.2, < 5)
@@ -127,7 +129,7 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (5.0.5)
       railties (>= 3.2.16)
-    json (1.8.2)
+    json (1.8.3)
     kaminari (0.16.3)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
@@ -196,7 +198,7 @@ GEM
     simple_form (3.1.0)
       actionpack (~> 4.0)
       activemodel (~> 4.0)
-    sprockets (3.1.0)
+    sprockets (3.2.0)
       rack (~> 1.0)
     sprockets-rails (2.3.1)
       actionpack (>= 3.0)
@@ -213,7 +215,18 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin!
+  bootstrap-sass
+  carrierwave
+  ckeditor
   debase
+  http_accept_language
+  jquery-rails
+  kaminari
+  mini_magick
   news!
   pg
+  responders
+  routing-filter
   ruby-debug-ide
+  sass-rails
+  simple_form

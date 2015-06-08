@@ -30,5 +30,6 @@ Gem::Specification.new do |s|
   s.add_dependency "simple_form"
   s.add_dependency "responders"
   s.add_dependency 'kaminari'
+  s.add_dependency 'http_accept_language'
   s.add_dependency 'routing-filter'
 end
