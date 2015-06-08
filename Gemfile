@@ -22,7 +22,6 @@ gem 'jquery-rails'
 gem 'sass-rails'
 gem 'bootstrap-sass'
 
-gem 'activeadmin', github: 'activeadmin'
 gem 'kaminari'
 
 gem 'ckeditor'
@@ -31,3 +30,8 @@ gem 'mini_magick'
 
 gem 'simple_form'
 gem 'responders'
+
+gem 'activeadmin', github: 'activeadmin'
+
+gem 'http_accept_language'
+gem 'routing-filter'
